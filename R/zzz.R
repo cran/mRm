@@ -1,4 +1,4 @@
-#    Copyright (C) 2011  David Preinerstorfer
+#    Copyright (C) 2012  David Preinerstorfer
 #    david.preinerstorfer@univie.ac.at
 #
 #    This program is free software; you can redistribute it and/or modify
@@ -13,10 +13,9 @@
 #    http://www.r-project.org/Licenses/
 
 .onAttach <- function(...) {
- 
-   cat("## mRm - cMLE in binary mixed Rasch models \n")
-   cat("## Maintainer:", " ", "David Preinerstorfer \n", sep="")
-   cat("## License:", " ", "GPL-2 \n", sep="")
+
+  packageStartupMessage("## mRm - version 1.1.1 - License:", " ", "GPL-2 \n", sep="")
+  packageStartupMessage("## NO WARRANTY PROVIDED")
 
 }
 

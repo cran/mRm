@@ -2,9 +2,9 @@
 \alias{mRm-package}
 \alias{mRm}
 \docType{package}
-\title{mRm: Parameter estimation and model selection in mixed Rasch models.}
+\title{Parameter estimation and model selection in mixed Rasch models.}
 \description{
-This package provides routines for cML estimation and model selection in binary mixed Rasch models (Rost 1990). For a detailed discussion on the accuracy of parameter estimates and reliability of AIC and BIC based model selection techniques see Preinerstorfer and Formann (2011). 
+This package provides routines for cML estimation and model selection in binary mixed Rasch models (Rost 1990). For a detailed discussion of the accuracy of parameter estimates and reliability of AIC- and BIC- based model selection techniques see Preinerstorfer and Formann (2011). 
 
 The core part of the algorithm has been implemented in C++, using parts of the \emph{Scythe Statistical Library} (2007) for matrix manipulations. Rows with missing values and constant rows are excluded. 
 }

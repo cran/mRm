@@ -1,7 +1,15 @@
-/* 
+/* Modified version of the error.h file of:
  * Scythe Statistical Library Copyright (C) 2000-2002 Andrew D. Martin
  * and Kevin M. Quinn; 2002-present Andrew D. Martin, Kevin M. Quinn,
  * and Daniel Pemstein.  All Rights Reserved.
+/*
+ 
+/* Modifications have been made in '#define SCYTHE_WARN(MSG)'  and 
+ * 'inline void scythe_terminate ()'  
+ * by David Preinerstorfer, 15/01/2011.  
+ *
+ * The modifications were necessary to avoid commands that might terminate R or
+ * write to stdout/stderr instead of to the console.
  *
  * This program is free software; you can redistribute it and/or
  * modify under the terms of the GNU General Public License as
@@ -55,7 +63,10 @@
 #include <string>
 #include <sstream>
 #include <iostream>
-#include <vector>
+#include <vector> 
+#include <R.h>           
+#include <R_ext/Utils.h> 
+
 
 /*! @cond */
 #ifdef SCYTHE_DEBUG_LIB
@@ -122,12 +133,20 @@
 #define SCYTHE_THROW_30(EXCEP,MSG)
 #endif
 
-#define SCYTHE_WARN(MSG)                                              \
+#define SCYTHE_WARN(MSG)                           \
+  {                                                 \
+   REprintf("Scythe Warning MSG");                  \
+  }                                                 \
+
+//INSTEAD OF:
+
+/* #define SCYTHE_WARN(MSG)                                              \
   {                                                                   \
   std::cerr << "WARNING in " << __FILE__ << ", "                      \
     << __func__ << ", " << __LINE__ << ": "                \
     << MSG << "\n";                                                   \
-  }
+  } */
+
 
 #define SCYTHE_CHECK_WARN(CHECK,MSG)                                  \
   {                                                                   \
@@ -591,12 +610,18 @@ namespace scythe
 	};
 
   // The definition of our terminate handler described above
-  inline void scythe_terminate ()
+  inline void scythe_terminate ()					 /*modified*/
+  {std::terminate();
+  }
+
+//INSTEAD OF:
+
+/*  inline void scythe_terminate ()
   {
     std::cerr << serr->what() << std::endl;
     std::cerr << std::endl;
     abort ();
-  }
+  } */
 
 }        // end namspace SCYTHE
 

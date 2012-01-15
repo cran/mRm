@@ -81,6 +81,7 @@ double logLikdiff = 0;
 double AIC = 0; 
 double BIC = 0; 
 int para = 2*(*Rcl)*(*Rk-1) + 1;
+double dRNwhole = (double) *RNwhole; 
 *Rnpara = para; 
 
 
@@ -121,7 +122,7 @@ logLikdiff = fabs(prelimlogLik - logLik);
 logLik = prelimlogLik; 
 
 AIC = -2*logLik + 2*para;
-BIC = -2*logLik + para * log(*RNwhole); 
+BIC = -2*logLik + para * log(dRNwhole); 
 
 if(logLikdiff < *Rconvcrit || check == 1 || iteration == *Rmaxit)
 	{break; 

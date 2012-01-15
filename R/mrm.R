@@ -43,8 +43,6 @@ prelim.beta <- beta * 0
 pi.r.c <- starting.vals$cond.pat.freq
 class.size <- starting.vals$pi.c
 
-library.dynam("mRm", package = "mRm")
-
 #call "em.cpp"
 
 fit <-	.C("em", as.integer(k), as.integer(N.whole), as.integer(dim(resp.pat)[1]), as.integer(k-1), 
