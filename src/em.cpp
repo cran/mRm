@@ -20,7 +20,6 @@
 
 #include "matrix.h"
 #include "la.h"
-#include "rng.h"
 #include "smath.h"
 #include "stat.h"
 #include "selcol.cpp"

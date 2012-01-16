@@ -17,12 +17,7 @@
 #    http://www.r-project.org/Licenses/
 */
 
-
 #include "matrix.h"
-#include "la.h"
-#include "rng.h"
-#include "smath.h"
-#include "stat.h"
 
 using namespace scythe;
 
