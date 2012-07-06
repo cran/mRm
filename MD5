@@ -1,4 +1,4 @@
-1c9194110ab30b9e7c737c4f2f107cdf *DESCRIPTION
+274c7b75d07f697a17c062b98179a12a *DESCRIPTION
 32347d000561307093b12572d83656c4 *NAMESPACE
 67b37dfdf7563ac2100e7d152bcbe859 *R/mrm.R
 d63915956ee4079861ef75d608c40e56 *R/plot.mrm.R
@@ -7,7 +7,7 @@ af23ba35ccbf5d30e12ac885a73e7e12 *R/resp.patterns.R
 4719b9ceb32ce8854f3a65280583f01f *R/sim.mrm.R
 b1e8888ab00569832ff30ad3d68f36da *R/starting.values.R
 5e3bdb9850cc140a42153d33f18a2e77 *R/summary.mrm.R
-e21890e92f6bc49b86233844dcf3eae8 *R/zzz.R
+44e1d8c93bc02b415db83fc6ec6dfeb0 *R/zzz.R
 143515e358d5c16089570d36f957e0e4 *man/mRm-package.Rd
 46806bd671e801100ca11528410114e0 *man/mrm.Rd
 8120c60c952e8c8a76e440d7f513aa7f *man/plot.mrm.Rd
@@ -22,13 +22,13 @@ c9a21578ffaa9f75a56e4a46027521fb *src/em.cpp
 b9dc2a2b79141d3bea1dc3d2797b852c *src/error.h
 0b1465cd303a39f5bd6ccb327e1e4b1f *src/ide.h
 822c244edb53be2f4f8b1e831abe16fb *src/la.h
-41fec997312cdc497e0baf2f4b7934ff *src/matrix.h
+8c428cf73ac0f553a24485b06c953d7c *src/matrix.h
 7ab16dbb6757a5de37dc7de9867a3c10 *src/matrix_bidirectional_iterator.h
 f924b218cd6eaed80846ed0cba534b03 *src/matrix_forward_iterator.h
 3dc8b8e303daa7ffdf3e2d29b2fa43d9 *src/matrix_random_access_iterator.h
 8e09d4db686286bcffccd87dd8f29141 *src/selcol.cpp
 a7de6667032fad1fe0ad51f829607690 *src/selrow.cpp
-8aa95ee02342c8863d2d03b0e722aa4a *src/smath.h
-6f0c8e88a1aa10a5198551f9856ad516 *src/stat.h
+9a1656760820e50605248198302c308c *src/smath.h
+012f34388c3a3b9f51b23462e51d2dd0 *src/stat.h
 8b60a1fb0364a8b6e510ab953cb19843 *src/symfunc.cpp
 b34c6d0df981e9253d15aa68e4dc4013 *src/symfuncomplete.cpp
