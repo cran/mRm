@@ -1,4 +1,4 @@
-/*  
+/* 
  * Scythe Statistical Library Copyright (C) 2000-2002 Andrew D. Martin
  * and Kevin M. Quinn; 2002-present Andrew D. Martin, Kevin M. Quinn,
  * and Daniel Pemstein.  All Rights Reserved.
