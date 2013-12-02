@@ -47,12 +47,12 @@
 
 // These are just goofy
 
-#ifdef SCYTHE_RPACK
+
 #undef DO
 #undef DS
 #undef SO
 #undef SS
-#endif
+
 
 namespace scythe {
   namespace {

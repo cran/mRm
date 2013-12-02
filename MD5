@@ -1,4 +1,4 @@
-274c7b75d07f697a17c062b98179a12a *DESCRIPTION
+a2abc6091aa68ced9df9ee1e26883078 *DESCRIPTION
 32347d000561307093b12572d83656c4 *NAMESPACE
 67b37dfdf7563ac2100e7d152bcbe859 *R/mrm.R
 d63915956ee4079861ef75d608c40e56 *R/plot.mrm.R
@@ -7,15 +7,14 @@ af23ba35ccbf5d30e12ac885a73e7e12 *R/resp.patterns.R
 4719b9ceb32ce8854f3a65280583f01f *R/sim.mrm.R
 b1e8888ab00569832ff30ad3d68f36da *R/starting.values.R
 5e3bdb9850cc140a42153d33f18a2e77 *R/summary.mrm.R
-44e1d8c93bc02b415db83fc6ec6dfeb0 *R/zzz.R
-143515e358d5c16089570d36f957e0e4 *man/mRm-package.Rd
-46806bd671e801100ca11528410114e0 *man/mrm.Rd
+8537647fe74db1628597a4cc6e97b851 *R/zzz.R
+50e29dec55ab206d82f444eacf9cecb9 *man/mRm-package.Rd
+0553e85f2da0419ef1d2a00dde1d5aca *man/mrm.Rd
 8120c60c952e8c8a76e440d7f513aa7f *man/plot.mrm.Rd
 71a78990b4d36ad93dc34cb5a88d3599 *man/print.mrm.Rd
-0f1dace42d1e594df6d23f07841fde7b *man/sim.mrm.Rd
+864916652ea6c8e9cd28d6d6c605e66f *man/sim.mrm.Rd
 c4ff9872619c03695604be1799f38ba9 *src/Makevars
-43f4124319734194009441b15aff3695 *src/Makevars.in
-5362ed41a42ce34cf7817f6bfd988935 *src/algorithm.h
+80df64b5442fba9c2bc695073d523daa *src/algorithm.h
 80eab6b8072ae34de6c192af41324093 *src/datablock.h
 5da8702c23b61c037f61dccebec10838 *src/defs.h
 c9a21578ffaa9f75a56e4a46027521fb *src/em.cpp

@@ -22,9 +22,9 @@ David Preinerstorfer
   Scythe Statistical Library: Application programmer's interface. 
   \url{http://scythe.wustl.edu/api/index.hgml}. 
 
-  Preinerstorfer, D. and Formann, A. K. (2011)
+  Preinerstorfer, D. and Formann, A. K. (2012)
   Parameter recovery and model selection in mixed Rasch models.
-  \emph{British Journal of Mathematical and Statistical Psychology,} in press.
+  \emph{British Journal of Mathematical and Statistical Psychology, 65}, 251-262. 
 
   Rost (1990).
   Rasch models in latent classes: An integration of two approaches to item analysis. 

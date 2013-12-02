@@ -2,7 +2,7 @@
 \alias{mrm}
 \title{cMLE and model selection in binary mixed Rasch models.}
 \description{
-Fits a binary mixed Rasch model via cML estimation (Rost 1990) and provides information criteria for model selection purposes. The core part of the routine has been written in C++, incorporating parts of the Scythe Statistical Library (2007) for matrix manipulations. Starting values for item parameters are uniformly drawn from the interval [-2, 2] and standardized appropriately (sum = 0). 
+The function fits a binary mixed Rasch model via cML estimation (Rost 1990) and provides information criteria for model selection purposes. The core part of the routine has been written in C++, incorporating parts of the Scythe Statistical Library (2007) for matrix manipulations. Starting values for item parameters are uniformly drawn from the interval [-2, 2] and standardized appropriately (sum = 0). 
 Starting values for latent score probabilities are uniformly drawn from the interval [0, 1] and standardized to sum up to one in each class. Rows with missing values, as well as constant rows and columns are excluded. The function returns an object of class 'mrm'.
 }
 
@@ -46,9 +46,9 @@ David Preinerstorfer
   Scythe Statistical Library: Application programmer's interface. 
   \url{http://scythe.wustl.edu/api/index.hgml}. 
 
-  Preinerstorfer, D. and Formann, A. K. (2011)
+  Preinerstorfer, D. and Formann, A. K. (2012)
   Parameter recovery and model selection in mixed Rasch models.
-  \emph{British Journal of Mathematical and Statistical Psychology,} in press.
+  \emph{British Journal of Mathematical and Statistical Psychology, 65}, 251-262. 
 }
 
 
