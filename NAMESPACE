@@ -1,7 +1,6 @@
 useDynLib(mRm)
-
+import(stats, graphics)
 export(mrm, sim.mrm)
-
 S3method(print, mrm)
 S3method(summary, mrm)
 S3method(plot, mrm)

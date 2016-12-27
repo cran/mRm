@@ -1,5 +1,6 @@
-a2abc6091aa68ced9df9ee1e26883078 *DESCRIPTION
-32347d000561307093b12572d83656c4 *NAMESPACE
+2a3e7fb1f7945210eb67602dd1bde221 *DESCRIPTION
+464177124926c503787388501ed1b253 *NAMESPACE
+502e5625e174cf6984a21cd2b6ded0e4 *NEWS
 67b37dfdf7563ac2100e7d152bcbe859 *R/mrm.R
 d63915956ee4079861ef75d608c40e56 *R/plot.mrm.R
 314d138d4df0ccb2d5d15568ca221cb8 *R/print.mrm.R
@@ -7,9 +8,9 @@ af23ba35ccbf5d30e12ac885a73e7e12 *R/resp.patterns.R
 4719b9ceb32ce8854f3a65280583f01f *R/sim.mrm.R
 b1e8888ab00569832ff30ad3d68f36da *R/starting.values.R
 5e3bdb9850cc140a42153d33f18a2e77 *R/summary.mrm.R
-8537647fe74db1628597a4cc6e97b851 *R/zzz.R
-50e29dec55ab206d82f444eacf9cecb9 *man/mRm-package.Rd
-0553e85f2da0419ef1d2a00dde1d5aca *man/mrm.Rd
+d783b96d0db5b7514a6bffe6b144f6b6 *R/zzz.R
+010a2542f19d1afb975286fc41693dd8 *man/mRm-package.Rd
+923729b8d48fd919ab81d812cc360612 *man/mrm.Rd
 8120c60c952e8c8a76e440d7f513aa7f *man/plot.mrm.Rd
 71a78990b4d36ad93dc34cb5a88d3599 *man/print.mrm.Rd
 864916652ea6c8e9cd28d6d6c605e66f *man/sim.mrm.Rd

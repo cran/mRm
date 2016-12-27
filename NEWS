@@ -1,0 +1,7 @@
+Changes in Version 1.1.6 
+
+o Some References in the .Rd files were updated
+o import(stats, graphics) was added to NAMESPACE file
+o DESCRIPTION file was updated
+o zzz.R file was updated
+

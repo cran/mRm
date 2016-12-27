@@ -14,7 +14,7 @@
 
 .onAttach <- function(...) {
 
-  packageStartupMessage("## mRm - version 1.1.5 - License:", " ", "GPL-2 \n", sep="")
+  packageStartupMessage("## mRm - version 1.1.6 - License:", " ", "GPL-2 \n", sep="")
   packageStartupMessage("## NO WARRANTY PROVIDED")
 
 }

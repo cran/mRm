@@ -20,7 +20,7 @@ David Preinerstorfer
 \references{
   Pemstein, D., Quinn, K. M. and Martin, A. D. (2007). 
   Scythe Statistical Library: Application programmer's interface. 
-  \url{http://scythe.wustl.edu/api/index.hgml}. 
+  \url{http://scythe.berkeley.edu/}. 
 
   Preinerstorfer, D. and Formann, A. K. (2012)
   Parameter recovery and model selection in mixed Rasch models.
